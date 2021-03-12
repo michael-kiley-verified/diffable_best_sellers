@@ -3,18 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676F507EB2E7087AB18890E9 /* Pods_BestSellers_BestSellersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11986E9BDB7A3A8DFF1DD132 /* Pods_BestSellers_BestSellersUITests.framework */; };
+		683E53318F9605C688B438D8 /* Pods_BestSellers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9EFFC638641ABB925ED887C /* Pods_BestSellers.framework */; };
+		69560F3825FBB0D700B2DE6D /* NYTBookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69560F3725FBB0D700B2DE6D /* NYTBookService.swift */; };
+		69560F4025FBD22100B2DE6D /* NYTBookServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69560F3F25FBD22100B2DE6D /* NYTBookServiceTests.swift */; };
+		6956565325FA7BFC007D82A8 /* Switchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956565225FA7BFC007D82A8 /* Switchable.swift */; };
+		6956565825FA98CC007D82A8 /* ListDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6956565725FA98CC007D82A8 /* ListDateView.swift */; };
 		696D077B25E97D85001B0EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D077A25E97D85001B0EFF /* AppDelegate.swift */; };
 		696D077D25E97D85001B0EFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D077C25E97D85001B0EFF /* SceneDelegate.swift */; };
-		696D077F25E97D85001B0EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D077E25E97D85001B0EFF /* ViewController.swift */; };
 		696D078225E97D85001B0EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696D078025E97D85001B0EFF /* Main.storyboard */; };
 		696D078425E97D87001B0EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 696D078325E97D87001B0EFF /* Assets.xcassets */; };
 		696D078725E97D87001B0EFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 696D078525E97D87001B0EFF /* LaunchScreen.storyboard */; };
-		696D079225E97D87001B0EFF /* BestSellersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D079125E97D87001B0EFF /* BestSellersTests.swift */; };
 		696D079D25E97D87001B0EFF /* BestSellersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D079C25E97D87001B0EFF /* BestSellersUITests.swift */; };
+		696D07B725E9857C001B0EFF /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07B625E9857C001B0EFF /* AllListsViewController.swift */; };
+		696D07BF25E98594001B0EFF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07BE25E98594001B0EFF /* ListViewController.swift */; };
+		696D07C925E98611001B0EFF /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07C825E98611001B0EFF /* Book.swift */; };
+		696D07CE25E98620001B0EFF /* BestSellerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07CD25E98620001B0EFF /* BestSellerList.swift */; };
+		696D07D325E98632001B0EFF /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07D225E98632001B0EFF /* BookViewModel.swift */; };
+		696D07D825E98647001B0EFF /* BestSellerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07D725E98647001B0EFF /* BestSellerListViewModel.swift */; };
+		696D07DD25E98673001B0EFF /* ListSummariesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07DC25E98673001B0EFF /* ListSummariesViewModel.swift */; };
+		696D07E325E98EAF001B0EFF /* BookService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07E225E98EAF001B0EFF /* BookService.swift */; };
+		696D07F025E99842001B0EFF /* RootCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D07EF25E99842001B0EFF /* RootCoordinator.swift */; };
+		696D080A25EADE2E001B0EFF /* mockSummaries.json in Resources */ = {isa = PBXBuildFile; fileRef = 696D080925EADE2E001B0EFF /* mockSummaries.json */; };
+		696D081125ED8D6D001B0EFF /* mockCombinedFictionList.json in Resources */ = {isa = PBXBuildFile; fileRef = 696D081025ED8D6D001B0EFF /* mockCombinedFictionList.json */; };
+		696D081925EDB06E001B0EFF /* BookTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D081825EDB06E001B0EFF /* BookTextCell.swift */; };
+		696D081E25EDB297001B0EFF /* ListTitleSupplementaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D081D25EDB297001B0EFF /* ListTitleSupplementaryView.swift */; };
+		696D082325EDBD25001B0EFF /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D082225EDBD25001B0EFF /* CustomColors.swift */; };
+		696D08A925F2C02F001B0EFF /* BookImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D08A825F2C02F001B0EFF /* BookImageCell.swift */; };
+		696D08B925F2C81D001B0EFF /* book_loading_animation.json in Resources */ = {isa = PBXBuildFile; fileRef = 696D08B825F2C81D001B0EFF /* book_loading_animation.json */; };
+		696D08BF25F94341001B0EFF /* BookViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D08BE25F94341001B0EFF /* BookViewModelTests.swift */; };
+		696D08CF25F945C4001B0EFF /* BestSellerListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 696D08CE25F945C4001B0EFF /* BestSellerListViewModelTests.swift */; };
+		EFDE5A437C959B35856FFB49 /* Pods_BestSellersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507F92CF6B6913B71FF4F8B1 /* Pods_BestSellersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +58,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11986E9BDB7A3A8DFF1DD132 /* Pods_BestSellers_BestSellersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestSellers_BestSellersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF7543F0EB5193A6533EDF8 /* Pods-BestSellers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestSellers.debug.xcconfig"; path = "Target Support Files/Pods-BestSellers/Pods-BestSellers.debug.xcconfig"; sourceTree = "<group>"; };
+		41B7124DCE108EDD4F64E509 /* Pods-BestSellers-BestSellersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestSellers-BestSellersUITests.debug.xcconfig"; path = "Target Support Files/Pods-BestSellers-BestSellersUITests/Pods-BestSellers-BestSellersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		507F92CF6B6913B71FF4F8B1 /* Pods_BestSellersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestSellersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69560F3725FBB0D700B2DE6D /* NYTBookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTBookService.swift; sourceTree = "<group>"; };
+		69560F3F25FBD22100B2DE6D /* NYTBookServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTBookServiceTests.swift; sourceTree = "<group>"; };
+		6956565225FA7BFC007D82A8 /* Switchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switchable.swift; sourceTree = "<group>"; };
+		6956565725FA98CC007D82A8 /* ListDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDateView.swift; sourceTree = "<group>"; };
 		696D077725E97D85001B0EFF /* BestSellers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestSellers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		696D077A25E97D85001B0EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		696D077C25E97D85001B0EFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		696D077E25E97D85001B0EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		696D078125E97D85001B0EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		696D078325E97D87001B0EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		696D078625E97D87001B0EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		696D078825E97D87001B0EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		696D078D25E97D87001B0EFF /* BestSellersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestSellersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		696D079125E97D87001B0EFF /* BestSellersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellersTests.swift; sourceTree = "<group>"; };
 		696D079325E97D87001B0EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		696D079825E97D87001B0EFF /* BestSellersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestSellersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		696D079C25E97D87001B0EFF /* BestSellersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellersUITests.swift; sourceTree = "<group>"; };
 		696D079E25E97D87001B0EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		696D07B625E9857C001B0EFF /* AllListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
+		696D07BE25E98594001B0EFF /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		696D07C825E98611001B0EFF /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		696D07CD25E98620001B0EFF /* BestSellerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerList.swift; sourceTree = "<group>"; };
+		696D07D225E98632001B0EFF /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		696D07D725E98647001B0EFF /* BestSellerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerListViewModel.swift; sourceTree = "<group>"; };
+		696D07DC25E98673001B0EFF /* ListSummariesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSummariesViewModel.swift; sourceTree = "<group>"; };
+		696D07E225E98EAF001B0EFF /* BookService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookService.swift; sourceTree = "<group>"; };
+		696D07EF25E99842001B0EFF /* RootCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCoordinator.swift; sourceTree = "<group>"; };
+		696D080925EADE2E001B0EFF /* mockSummaries.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockSummaries.json; sourceTree = "<group>"; };
+		696D081025ED8D6D001B0EFF /* mockCombinedFictionList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mockCombinedFictionList.json; sourceTree = "<group>"; };
+		696D081825EDB06E001B0EFF /* BookTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTextCell.swift; sourceTree = "<group>"; };
+		696D081D25EDB297001B0EFF /* ListTitleSupplementaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTitleSupplementaryView.swift; sourceTree = "<group>"; };
+		696D082225EDBD25001B0EFF /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		696D08A825F2C02F001B0EFF /* BookImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookImageCell.swift; sourceTree = "<group>"; };
+		696D08B825F2C81D001B0EFF /* book_loading_animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book_loading_animation.json; sourceTree = "<group>"; };
+		696D08BE25F94341001B0EFF /* BookViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModelTests.swift; sourceTree = "<group>"; };
+		696D08CE25F945C4001B0EFF /* BestSellerListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerListViewModelTests.swift; sourceTree = "<group>"; };
+		69A8C5EA7A6AACB254114F82 /* Pods-BestSellers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestSellers.release.xcconfig"; path = "Target Support Files/Pods-BestSellers/Pods-BestSellers.release.xcconfig"; sourceTree = "<group>"; };
+		7F0A54BD3B148DEB89136B79 /* Pods-BestSellersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestSellersTests.debug.xcconfig"; path = "Target Support Files/Pods-BestSellersTests/Pods-BestSellersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9EFFC638641ABB925ED887C /* Pods_BestSellers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestSellers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC70D9F7F23CD982BA50020E /* Pods-BestSellers-BestSellersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestSellers-BestSellersUITests.release.xcconfig"; path = "Target Support Files/Pods-BestSellers-BestSellersUITests/Pods-BestSellers-BestSellersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D54E9245D13BCEECAA2A1033 /* Pods-BestSellersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestSellersTests.release.xcconfig"; path = "Target Support Files/Pods-BestSellersTests/Pods-BestSellersTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683E53318F9605C688B438D8 /* Pods_BestSellers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDE5A437C959B35856FFB49 /* Pods_BestSellersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +124,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676F507EB2E7087AB18890E9 /* Pods_BestSellers_BestSellersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AC9833CD8484ADF5102FFFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FF7543F0EB5193A6533EDF8 /* Pods-BestSellers.debug.xcconfig */,
+				69A8C5EA7A6AACB254114F82 /* Pods-BestSellers.release.xcconfig */,
+				41B7124DCE108EDD4F64E509 /* Pods-BestSellers-BestSellersUITests.debug.xcconfig */,
+				CC70D9F7F23CD982BA50020E /* Pods-BestSellers-BestSellersUITests.release.xcconfig */,
+				7F0A54BD3B148DEB89136B79 /* Pods-BestSellersTests.debug.xcconfig */,
+				D54E9245D13BCEECAA2A1033 /* Pods-BestSellersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		61E924ADD8C04D3A1F58DDE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9EFFC638641ABB925ED887C /* Pods_BestSellers.framework */,
+				11986E9BDB7A3A8DFF1DD132 /* Pods_BestSellers_BestSellersUITests.framework */,
+				507F92CF6B6913B71FF4F8B1 /* Pods_BestSellersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		696D076E25E97D85001B0EFF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +161,8 @@
 				696D079025E97D87001B0EFF /* BestSellersTests */,
 				696D079B25E97D87001B0EFF /* BestSellersUITests */,
 				696D077825E97D85001B0EFF /* Products */,
+				3AC9833CD8484ADF5102FFFF /* Pods */,
+				61E924ADD8C04D3A1F58DDE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +179,13 @@
 		696D077925E97D85001B0EFF /* BestSellers */ = {
 			isa = PBXGroup;
 			children = (
+				696D07E125E98E98001B0EFF /* Service */,
+				696D07B225E984E1001B0EFF /* Model */,
+				696D07B125E984DB001B0EFF /* ViewModel */,
+				696D07B025E984D0001B0EFF /* View */,
 				696D077A25E97D85001B0EFF /* AppDelegate.swift */,
 				696D077C25E97D85001B0EFF /* SceneDelegate.swift */,
-				696D077E25E97D85001B0EFF /* ViewController.swift */,
+				696D07EF25E99842001B0EFF /* RootCoordinator.swift */,
 				696D078025E97D85001B0EFF /* Main.storyboard */,
 				696D078325E97D87001B0EFF /* Assets.xcassets */,
 				696D078525E97D87001B0EFF /* LaunchScreen.storyboard */,
@@ -113,8 +197,10 @@
 		696D079025E97D87001B0EFF /* BestSellersTests */ = {
 			isa = PBXGroup;
 			children = (
-				696D079125E97D87001B0EFF /* BestSellersTests.swift */,
 				696D079325E97D87001B0EFF /* Info.plist */,
+				696D08BE25F94341001B0EFF /* BookViewModelTests.swift */,
+				696D08CE25F945C4001B0EFF /* BestSellerListViewModelTests.swift */,
+				69560F3F25FBD22100B2DE6D /* NYTBookServiceTests.swift */,
 			);
 			path = BestSellersTests;
 			sourceTree = "<group>";
@@ -128,6 +214,52 @@
 			path = BestSellersUITests;
 			sourceTree = "<group>";
 		};
+		696D07B025E984D0001B0EFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				696D07B625E9857C001B0EFF /* AllListsViewController.swift */,
+				696D07BE25E98594001B0EFF /* ListViewController.swift */,
+				6956565225FA7BFC007D82A8 /* Switchable.swift */,
+				696D081825EDB06E001B0EFF /* BookTextCell.swift */,
+				696D08A825F2C02F001B0EFF /* BookImageCell.swift */,
+				696D081D25EDB297001B0EFF /* ListTitleSupplementaryView.swift */,
+				6956565725FA98CC007D82A8 /* ListDateView.swift */,
+				696D082225EDBD25001B0EFF /* CustomColors.swift */,
+				696D08B825F2C81D001B0EFF /* book_loading_animation.json */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		696D07B125E984DB001B0EFF /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				696D07D225E98632001B0EFF /* BookViewModel.swift */,
+				696D07D725E98647001B0EFF /* BestSellerListViewModel.swift */,
+				696D07DC25E98673001B0EFF /* ListSummariesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		696D07B225E984E1001B0EFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				696D07C825E98611001B0EFF /* Book.swift */,
+				696D07CD25E98620001B0EFF /* BestSellerList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		696D07E125E98E98001B0EFF /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				696D07E225E98EAF001B0EFF /* BookService.swift */,
+				69560F3725FBB0D700B2DE6D /* NYTBookService.swift */,
+				696D080925EADE2E001B0EFF /* mockSummaries.json */,
+				696D081025ED8D6D001B0EFF /* mockCombinedFictionList.json */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +267,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 696D07A125E97D87001B0EFF /* Build configuration list for PBXNativeTarget "BestSellers" */;
 			buildPhases = (
+				447A52B40681ED8110D12B74 /* [CP] Check Pods Manifest.lock */,
 				696D077325E97D85001B0EFF /* Sources */,
 				696D077425E97D85001B0EFF /* Frameworks */,
 				696D077525E97D85001B0EFF /* Resources */,
+				BFEEA99B39CFB66BC5F09A28 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 696D07A425E97D87001B0EFF /* Build configuration list for PBXNativeTarget "BestSellersTests" */;
 			buildPhases = (
+				00784F0E99190D0F330809D2 /* [CP] Check Pods Manifest.lock */,
 				696D078925E97D87001B0EFF /* Sources */,
 				696D078A25E97D87001B0EFF /* Frameworks */,
 				696D078B25E97D87001B0EFF /* Resources */,
@@ -170,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 696D07A725E97D87001B0EFF /* Build configuration list for PBXNativeTarget "BestSellersUITests" */;
 			buildPhases = (
+				BDA99859152B601355CFC55E /* [CP] Check Pods Manifest.lock */,
 				696D079425E97D87001B0EFF /* Sources */,
 				696D079525E97D87001B0EFF /* Frameworks */,
 				696D079625E97D87001B0EFF /* Resources */,
+				A11CDEE363BA8534D137A94A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +368,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				696D08B925F2C81D001B0EFF /* book_loading_animation.json in Resources */,
+				696D081125ED8D6D001B0EFF /* mockCombinedFictionList.json in Resources */,
 				696D078725E97D87001B0EFF /* LaunchScreen.storyboard in Resources */,
 				696D078425E97D87001B0EFF /* Assets.xcassets in Resources */,
+				696D080A25EADE2E001B0EFF /* mockSummaries.json in Resources */,
 				696D078225E97D85001B0EFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +393,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00784F0E99190D0F330809D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestSellersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		447A52B40681ED8110D12B74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestSellers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A11CDEE363BA8534D137A94A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestSellers-BestSellersUITests/Pods-BestSellers-BestSellersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestSellers-BestSellersUITests/Pods-BestSellers-BestSellersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestSellers-BestSellersUITests/Pods-BestSellers-BestSellersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDA99859152B601355CFC55E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BestSellers-BestSellersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFEEA99B39CFB66BC5F09A28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestSellers/Pods-BestSellers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BestSellers/Pods-BestSellers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BestSellers/Pods-BestSellers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		696D077325E97D85001B0EFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696D077F25E97D85001B0EFF /* ViewController.swift in Sources */,
+				696D07CE25E98620001B0EFF /* BestSellerList.swift in Sources */,
+				696D07E325E98EAF001B0EFF /* BookService.swift in Sources */,
 				696D077B25E97D85001B0EFF /* AppDelegate.swift in Sources */,
+				696D07D825E98647001B0EFF /* BestSellerListViewModel.swift in Sources */,
+				696D07C925E98611001B0EFF /* Book.swift in Sources */,
+				696D07F025E99842001B0EFF /* RootCoordinator.swift in Sources */,
+				6956565825FA98CC007D82A8 /* ListDateView.swift in Sources */,
+				696D07D325E98632001B0EFF /* BookViewModel.swift in Sources */,
+				69560F3825FBB0D700B2DE6D /* NYTBookService.swift in Sources */,
+				696D082325EDBD25001B0EFF /* CustomColors.swift in Sources */,
+				696D081E25EDB297001B0EFF /* ListTitleSupplementaryView.swift in Sources */,
+				6956565325FA7BFC007D82A8 /* Switchable.swift in Sources */,
+				696D08A925F2C02F001B0EFF /* BookImageCell.swift in Sources */,
+				696D07B725E9857C001B0EFF /* AllListsViewController.swift in Sources */,
+				696D081925EDB06E001B0EFF /* BookTextCell.swift in Sources */,
 				696D077D25E97D85001B0EFF /* SceneDelegate.swift in Sources */,
+				696D07DD25E98673001B0EFF /* ListSummariesViewModel.swift in Sources */,
+				696D07BF25E98594001B0EFF /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +526,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				696D079225E97D87001B0EFF /* BestSellersTests.swift in Sources */,
+				696D08BF25F94341001B0EFF /* BookViewModelTests.swift in Sources */,
+				69560F4025FBD22100B2DE6D /* NYTBookServiceTests.swift in Sources */,
+				696D08CF25F945C4001B0EFF /* BestSellerListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,11 +693,12 @@
 		};
 		696D07A225E97D87001B0EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FF7543F0EB5193A6533EDF8 /* Pods-BestSellers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 367UR8Z8N5;
+				DEVELOPMENT_TEAM = M637J7RS24;
 				INFOPLIST_FILE = BestSellers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,11 +713,12 @@
 		};
 		696D07A325E97D87001B0EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69A8C5EA7A6AACB254114F82 /* Pods-BestSellers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 367UR8Z8N5;
+				DEVELOPMENT_TEAM = M637J7RS24;
 				INFOPLIST_FILE = BestSellers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,6 +733,7 @@
 		};
 		696D07A525E97D87001B0EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0A54BD3B148DEB89136B79 /* Pods-BestSellersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +756,7 @@
 		};
 		696D07A625E97D87001B0EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54E9245D13BCEECAA2A1033 /* Pods-BestSellersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +779,7 @@
 		};
 		696D07A825E97D87001B0EFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B7124DCE108EDD4F64E509 /* Pods-BestSellers-BestSellersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +800,7 @@
 		};
 		696D07A925E97D87001B0EFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC70D9F7F23CD982BA50020E /* Pods-BestSellers-BestSellersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
